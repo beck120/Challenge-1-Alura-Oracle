@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.svg">
+    <title>Encriptador de textos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h1 class="header__h1">
+                <a href="https://www.aluracursos.com/" class="header__logo">
+                    <img class="header__img" src="img/logo.svg" alt="Alura" title="Alura">
+                </a>
+            </h1>
+        </header>
+
+        <form class="form">
+            <textarea class="form__textarea" id="mensaje" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="form__alert alert">
+                <img class="alert__icon" src="img/exclamation-circle-fill.svg" alt="Info" loading="lazy">
+                <p class="alert__p disable" id="alertText">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="form__btns">
+                <button class="form__button" onclick="encriptar(event);">Encriptar</button>
+                <button class="form__button form__button--outline" onclick="desencriptar(event);">Desencriptar</button>
+            </div>
+        </form>
+
+        <div class="card">
+            <div class="vacio" id="vacio">
+                <img class="vacio__img" src="img/Muñeco.svg" alt="toy" loading="lazy">
+                <div class="vacio__mensaje">
+                    <p class="vacio__problema">Ningún mensaje fue encontrado</p>
+                    <p class="vacio__solucion">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <div class="resultado disable" id="resultado">
+                <p class="resultado__p" id="texto"></p>
+                <button class="resultado__button" onclick="copiar();">Copiar</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+        
+        <footer>
+            <img class="alura-logo" src="img/logo-aluralatam-oracle.svg">
+            <div class="social-icon-container">
+                <a href="https://www.linkedin.com/in/agustina-bel%C3%A9n-beck" class="linkedin-icon"></a>
+                <a href="https://github.com/beck120" class="github-icon"></a>
+            </div>
+            <p class="copyright">Copyright &copy2022. Designed by Agustina Belén Beck</p>
+        </footer>
+</body>
+</html>

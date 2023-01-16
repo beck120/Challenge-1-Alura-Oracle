@@ -38,21 +38,21 @@ gaitober" => "gato"
 
 <h2 align="center"> Imagenes </h2>
 
-### PC - 1920 x 937
+### 1920 x 937
 ![imagenpc](https://user-images.githubusercontent.com/75341034/212575646-7728043d-ff6b-4495-a562-bf28c4897e91.png)
 
-### MacBook Air - 1280 x 800
+### 1280 x 800
 ![mobile (2)](https://user-images.githubusercontent.com/75341034/212575055-8c50fc4f-8d19-490f-8a5f-bef2d6dc502a.png)
 
-### Galaxy Z Flip3 - 360 x 880
+### 360 x 880
 ![mobile](https://user-images.githubusercontent.com/75341034/212574550-e5e6bffd-3211-464e-88a4-eb1b21145d3c.png)
 ![mobile (1)](https://user-images.githubusercontent.com/75341034/212574535-64d735a7-5316-4f9b-b084-391f2ec64dec.png)
 
-### iPhone 12 PRO MAX - 428 x 926
+### 428 x 926
 ![mobile (4)](https://user-images.githubusercontent.com/75341034/212575017-b6c67cab-7d0b-4e2e-9413-291d731f34fd.png)
 ![mobile (5)](https://user-images.githubusercontent.com/75341034/212575039-8ec1505f-6746-4ab5-a154-17fd6b7dd5d2.png)
 
-### Galaxy Tab S7 - 800 x 1280
+### 800 x 1280
 ![mobile (3)](https://user-images.githubusercontent.com/75341034/212575085-dc2aee39-24f9-48c8-9f60-40b5c7378352.gif)
 
 >Link del proyecto: [GitHub Pages](https://beck120.github.io/Challenge-1-Alura-Oracle/).
